@@ -37,10 +37,20 @@
 #
 # print(max_num(1, 2,3))
 
-montConvesrions ={
-    "Jan":1,
-    "Feb":2,
-    "Mar":3
-}
+# montConvesrions ={
+#     "Jan":1,
+#     "Feb":2,
+#     "Mar":3
+# }
+#
+# print(montConvesrions["Jan"])
 
-print(montConvesrions["Jan"])
+try:
+    10/0
+    number = int(input("Enter number"))
+    print(number)
+except ZeroDivisionError as err:
+    print(err)
+except ValueError:
+    print("input error")
+
