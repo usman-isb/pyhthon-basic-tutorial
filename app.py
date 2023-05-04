@@ -27,12 +27,20 @@
 #     return a+b
 # print (hello_world(1,2))
 
-def max_num(num, num2, num3):
-    if num>=num2 and num>num3:
-        return  num
-    elif num2>=num and num2>num3:
-        return  num2
-    else:
-        return  num3
+# def max_num(num, num2, num3):
+#     if num>=num2 and num>num3:
+#         return  num
+#     elif num2>=num and num2>num3:
+#         return  num2
+#     else:
+#         return  num3
+#
+# print(max_num(1, 2,3))
 
-print(max_num(1, 2,3))
+montConvesrions ={
+    "Jan":1,
+    "Feb":2,
+    "Mar":3
+}
+
+print(montConvesrions["Jan"])
